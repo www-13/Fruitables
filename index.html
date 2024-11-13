@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Fruitables | Adam-Prog</title>
+</head>
+<body>  
+
+<!-- Header Section -->
+<header>
+    <div class="header-content">
+        <div class="header-content-left">
+            <i class='bx bxs-location-plus'></i>
+            <p id="pp">123 Street, New York</p>
+            <i class='bx bxs-envelope'></i>
+            <p id="pp">Email@Example.com</p>
+        </div>
+        <div class="header-content-right">
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Sales and Refunds</a></li>
+            </ul>
+        </div>
+    </div>
+</header> 
+
+<!--Navbar section-->
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="#">Fruitables</a>
+ 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop details</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pages
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Cart</a></li>
+                        <li><a class="dropdown-item" href="#">Checkout</a></li>
+                        <li><a class="dropdown-item" href="#">Testimonial</a></li>
+                        <li><a class="dropdown-item" href="#">404 page</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+
+            <div class="navbar-icons d-flex align-items-center gap-2">
+                <i id="search" class='bx bx-search'></i>
+                <i class='bx bxs-shopping-bag'></i>
+                <p id="bag">3</p>
+                <i id="user" class='bx bxs-user'></i>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="hero-section">
+     <div class="hero-section-content">
+        <div style="background-color: red;" class="hero-section-left">
+             <p>100% Organic Foods</p>
+             <h1><b>Organic Veggies & <br> Fruits Foods</b></h1>
+             <input type="search" placeholder="Search">
+             <button type="button">Submit Now</button>
+        </div>
+        <div class="hero-section-right">
+             <div class="crosil">
+                  <div id="carosil-arrow-left">
+                    <a href="#"><i class='bx bx-chevron-left'></i></a>
+                  </div>
+
+                  <div id="carosil-arrow-right">
+                    <a href="#"><i class='bx bx-chevron-right'></i></a>
+                  </div>
+
+                  <img src="images/hero-img-2.jpg">
+                  <img style="display: none; background-color: rgb(255, 181, 36);" src="images/hero-image-3.png" alt="">
+             </div>
+        </div>
+     </div>
+</div>
+
+
+<div class="wcu">
+      <div class="wcu-content">
+        <div class="wcu-item rounded me-3">
+             <div class="wcu-item-content">
+                <i id="adsadasd" class='bx bxs-car'></i>
+                <h3 id="akjsb-1">Free Shipping</h3>
+                <p>Free on order over $300</p>
+             </div>
+        </div>
+   
+        <div class="wcu-item-2 rounded me-3">
+            <div class="wcu-item-content-2">
+                <i id="adsadasd-2" class='bx bxs-user-check'></i>
+                <h3 id="akjsb-2">Security Payment</h3>
+                <p>100% security payment</p>
+            </div>
+        </div>
+   
+        <div class="wcu-item rounded me-3">
+            <div class="wcu-item-content-2">
+                <i id="adsadasd-2" class='bx bx-chevrons-left'></i>
+                <h3 id="akjsb-3">30 Day Return</h3>
+                <p>30 day money guarantee</p>
+            </div>
+        </div>
+        
+        <div class="wcu-item rounded me-3">
+            <div class="wcu-item-content-2">
+                <i id="adsadasd-2" class='bx bx-phone-call'></i>
+                <h3 id="akjsb-3">24/7 Support</h3>
+                <p>Support every time fast</p>
+            </div>
+        </div>
+      </div>
+</div>
+
+
+
+<div class="oop">
+    <div class="oop-header">
+          <h1>Our Organic Products</h1>
+          <div class="oop-header-choose">
+             <div class="opp-header-choose-item main-choose-item">All Products</div>
+             <div class="opp-header-choose-item">Vegetables</div>
+             <div class="opp-header-choose-item">Fruits</div>
+             <div class="opp-header-choose-item">Bread</div>
+             <div class="opp-header-choose-item">Meat</div>
+          </div> 
+   </div>
+
+    
+     <div style="margin-left: 1.5rem !important;" class="containerr text-center">
+        <div class="row row-cols-2 roww">
+
+
+
+
+          <div class="col oop-item">
+                <div class="oop-item-content">
+                    <div class="oop-item-image">
+                        <img src="images/oop-1.jpg">
+                         <div class="oop-item-image-dis">
+                             Fruits
+                         </div>
+                 </div>
+                 <div class="oop-item-title">
+                       <h3 style="color: rgb(69, 89, 91);">Grapes</h3>
+                 </div>
+                <div class="oop-item-dis">
+                    Lorem ipsum dolor sit amet <br> consectetur adipisicing elit sed do <br> eiusmod te incididunt
+                </div>
+
+                <div class="oop-item-footer">
+                    <div class="oop-item-footer-kg">
+                         $4.99 / kg
+                    </div>
+                    <div class="oop-item-footer-btn">
+                        <i class='bx bxs-cart-add'></i> Add to cart
+                    </div>
+                </div>
+                </div>
+          </div>
+
+
+
+
+
+          <div class="col oop-item">
+            <div class="oop-item-content">
+                <div class="oop-item-image">
+                    <img src="images/oop-1.jpg">
+                     <div class="oop-item-image-dis">
+                         Fruits
+                     </div>
+             </div>
+             <div class="oop-item-title">
+                   <h3 style="color: rgb(69, 89, 91);">Grapes</h3>
+             </div>
+            <div class="oop-item-dis">
+                Lorem ipsum dolor sit amet <br> consectetur adipisicing elit sed do <br> eiusmod te incididunt
+            </div>
+
+            <div class="oop-item-footer">
+                <div class="oop-item-footer-kg">
+                     $4.99 / kg
+                </div>
+                <div class="oop-item-footer-btn">
+                    <i class='bx bxs-cart-add'></i> Add to cart
+                </div>
+            </div>
+            </div>
+          </div>
+
+
+
+          <div class="col oop-item">
+            <div class="oop-item-content">
+                <div class="oop-item-image">
+                    <img src="images/oop-2.jpg">
+                     <div class="oop-item-image-dis">
+                         Fruits
+                     </div>
+             </div>
+             <div class="oop-item-title">
+                   <h3 style="color: rgb(69, 89, 91);">Raspberries</h3>
+             </div>
+            <div class="oop-item-dis">
+                Lorem ipsum dolor sit amet <br> consectetur adipisicing elit sed do <br> eiusmod te incididunt
+            </div>
+
+            <div class="oop-item-footer">
+                <div class="oop-item-footer-kg">
+                     $4.99 / kg
+                </div>
+                <div class="oop-item-footer-btn">
+                    <i class='bx bxs-cart-add'></i> Add to cart
+                </div>
+            </div>
+            </div>
+      </div>
+
+
+
+      <div class="col oop-item">
+        <div class="oop-item-content">
+            <div class="oop-item-image">
+                <img src="images/oop-3.jpg">
+                 <div class="oop-item-image-dis">
+                     Fruits
+                 </div>
+         </div>
+         <div class="oop-item-title">
+               <h3 style="color: rgb(69, 89, 91);">Apricots</h3>
+         </div>
+        <div class="oop-item-dis">
+            Lorem ipsum dolor sit amet <br> consectetur adipisicing elit sed do <br> eiusmod te incididunt
+        </div>
+
+        <div class="oop-item-footer">
+            <div class="oop-item-footer-kg">
+                 $4.99 / kg
+            </div>
+            <div class="oop-item-footer-btn">
+                <i class='bx bxs-cart-add'></i> Add to cart
+            </div>
+        </div>
+        </div>
+  </div>
+
+
+
+
+
+
+
+  <div class="col oop-item">
+    <div class="oop-item-content">
+        <div class="oop-item-image">
+            <img src="images/oop-4.jpg">
+             <div class="oop-item-image-dis">
+                 Fruits
+             </div>
+     </div>
+     <div class="oop-item-title">
+           <h3 style="color: rgb(69, 89, 91);">Bananas</h3>
+     </div>
+    <div class="oop-item-dis">
+        Lorem ipsum dolor sit amet <br> consectetur adipisicing elit sed do <br> eiusmod te incididunt
+    </div>
+
+    <div class="oop-item-footer">
+        <div class="oop-item-footer-kg">
+             $4.99 / kg
+        </div>
+        <div class="oop-item-footer-btn">
+            <i class='bx bxs-cart-add'></i> Add to cart
+        </div>
+    </div>
+    </div>
+  </div>
+
+
+  <div class="col oop-item">
+    <div class="oop-item-content">
+        <div class="oop-item-image">
+            <img src="images/oop-5.jpg">
+             <div class="oop-item-image-dis">
+                 Fruits
+             </div>
+     </div>
+     <div class="oop-item-title">
+           <h3 style="color: rgb(69, 89, 91);">Oranges</h3>
+     </div>
+    <div class="oop-item-dis">
+        Lorem ipsum dolor sit amet <br> consectetur adipisicing elit sed do <br> eiusmod te incididunt
+    </div>
+
+    <div class="oop-item-footer">
+        <div class="oop-item-footer-kg">
+             $4.99 / kg
+        </div>
+        <div class="oop-item-footer-btn">
+            <i class='bx bxs-cart-add'></i> Add to cart
+        </div>
+    </div>
+    </div>
+  </div>
+
+
+  <div class="col oop-item">
+    <div class="oop-item-content">
+        <div class="oop-item-image">
+            <img src="images/oop-6.jpg">
+             <div class="oop-item-image-dis">
+                 Fruits
+             </div>
+     </div>
+     <div class="oop-item-title">
+           <h3 style="color: rgb(69, 89, 91);">Raspberries</h3>
+     </div>
+    <div class="oop-item-dis">
+        Lorem ipsum dolor sit amet <br> consectetur adipisicing elit sed do <br> eiusmod te incididunt
+    </div>
+
+    <div class="oop-item-footer">
+        <div class="oop-item-footer-kg">
+             $4.99 / kg
+        </div>
+        <div class="oop-item-footer-btn">
+            <i class='bx bxs-cart-add'></i> Add to cart
+        </div>
+    </div>
+    </div>
+  </div>
+
+
+  <div class="col oop-item">
+    <div class="oop-item-content">
+        <div class="oop-item-image">
+            <img src="images/oop-1.jpg">
+             <div class="oop-item-image-dis">
+                 Fruits 
+             </div>
+     </div>
+     <div class="oop-item-title">
+           <h3 style="color: rgb(69, 89, 91);">Grapes</h3>
+     </div>
+    <div class="oop-item-dis">
+        Lorem ipsum dolor sit amet <br> consectetur adipisicing elit sed do <br> eiusmod te incididunt
+    </div>
+
+    <div class="oop-item-footer">
+        <div class="oop-item-footer-kg">
+             $4.99 / kg
+        </div>
+        <div class="oop-item-footer-btn">
+            <i class='bx bxs-cart-add'></i> Add to cart
+        </div>
+    </div>
+    </div>
+  </div>
+
+
+
+
+
+        </div>
+
+      </div>
+</div>
+
+
+
+
+<div class="fov-header">
+    <h1 style="color: rgb(69, 89, 91);" class="ms-3 mt-5">Fresh Organic Vegetables</h1>
+</div>
+
+<div class="fov">
+    <div style="margin-left: 1.5rem !important;" class="containerr text-center">
+        <div class="row row-cols-2 roww">
+            <div class="col oop-item">
+                <div class="oop-item-content">
+                    <div class="oop-item-image">
+                        <img src="images/oop-1.jpg">
+                         <div class="oop-item-image-dis">
+                             Fruits 
+                         </div>
+                 </div>
+                 <div class="oop-item-title">
+                       <h3 style="color: rgb(69, 89, 91);">Grapes</h3>
+                 </div>
+                <div class="oop-item-dis">
+                    Lorem ipsum dolor sit amet <br> consectetur adipisicing elit sed do <br> eiusmod te incididunt
+                </div>
+            
+                <div class="oop-item-footer">
+                    <div class="oop-item-footer-kg">
+                         $4.99 / kg
+                    </div>
+                    <div class="oop-item-footer-btn">
+                        <i class='bx bxs-cart-add'></i> Add to cart
+                    </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="col oop-item">
+                <div class="oop-item-content">
+                    <div class="oop-item-image">
+                        <img src="images/oop-1.jpg">
+                         <div class="oop-item-image-dis">
+                             Fruits 
+                         </div>
+                 </div>
+                 <div class="oop-item-title">
+                       <h3 style="color: rgb(69, 89, 91);">Grapes</h3>
+                 </div>
+                <div class="oop-item-dis">
+                    Lorem ipsum dolor sit amet <br> consectetur adipisicing elit sed do <br> eiusmod te incididunt
+                </div>
+            
+                <div class="oop-item-footer">
+                    <div class="oop-item-footer-kg">
+                         $4.99 / kg
+                    </div>
+                    <div class="oop-item-footer-btn">
+                        <i class='bx bxs-cart-add'></i> Add to cart
+                    </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="col oop-item">
+                <div class="oop-item-content">
+                    <div class="oop-item-image">
+                        <img src="images/oop-1.jpg">
+                         <div class="oop-item-image-dis">
+                             Fruits 
+                         </div>
+                 </div>
+                 <div class="oop-item-title">
+                       <h3 style="color: rgb(69, 89, 91);">Grapes</h3>
+                 </div>
+                <div class="oop-item-dis">
+                    Lorem ipsum dolor sit amet <br> consectetur adipisicing elit sed do <br> eiusmod te incididunt
+                </div>
+            
+                <div class="oop-item-footer">
+                    <div class="oop-item-footer-kg">
+                         $4.99 / kg
+                    </div>
+                    <div class="oop-item-footer-btn">
+                        <i class='bx bxs-cart-add'></i> Add to cart
+                    </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="col oop-item">
+                <div class="oop-item-content">
+                    <div class="oop-item-image">
+                        <img src="images/oop-1.jpg">
+                         <div class="oop-item-image-dis">
+                             Fruits 
+                         </div>
+                 </div>
+                 <div class="oop-item-title">
+                       <h3 style="color: rgb(69, 89, 91);">Grapes</h3>
+                 </div>
+                <div class="oop-item-dis">
+                    Lorem ipsum dolor sit amet <br> consectetur adipisicing elit sed do <br> eiusmod te incididunt
+                </div>
+            
+                <div class="oop-item-footer">
+                    <div class="oop-item-footer-kg">
+                         $4.99 / kg
+                    </div>
+                    <div class="oop-item-footer-btn">
+                        <i class='bx bxs-cart-add'></i> Add to cart
+                    </div>
+                </div>
+                </div>
+              </div>
+         </div>
+     </div>
+</div>
+
+<div class="div1">
+     <div class="div1-content">
+          <div class="div1-left">
+               <h1>Fresh Exotic Fruits <br> <h1 style="color: rgb(69, 89, 91);">In our store</h1> </h1>
+               <p style="color: rgb(69, 89, 91);">The generated Lorem Ipsum is therefore always free from repetition injected <br> humour, or non-characteristic words etc.</p>
+               <div class="button">
+                   buy
+               </div>
+          </div>
+          <div style="margin-top: 20px;" class="div1-right">
+             <img src="images/div1-1.png" alt="">
+          </div>
+     </div>
+</div>
+
+<div class="div2">
+     <div class="div2-content">
+
+           <div class="div2-content-item">
+                  <i class='bx bxs-group'></i>
+                  <h3 id="div3-item-title">satisfied</h3>
+                  <h3>customers</h3>
+                  <h3 id="div2-item-number">1963</h3>
+           </div>
+
+           <div class="div2-content-item">
+            <i class='bx bxs-group'></i>
+            <h3 id="div3-item-title">quality of</h3>
+            <h3>service</h3>
+            <h3 id="div2-item-number">99%</h3>
+           </div>
+
+           <div class="div2-content-item">
+            <i class='bx bxs-group'></i>
+            <h3 id="div3-item-title">quality</h3>
+            <h3>certificates</h3>
+            <h3 id="div2-item-number">33</h3>
+           </div>
+
+           <div class="div2-content-item">
+            <i class='bx bxs-group'></i>
+            <h3 id="div3-item-title">Available</h3>
+            <h3>Products</h3>
+            <h3 id="div2-item-number">789</h3>
+           </div>
+
+     </div>
+</div>
+
+<div class="div3-title">
+     <h4 style="color: rgb(129, 196, 8);">Our Testimonial</h4>
+     <h1 style="color: rgb(69, 89, 91); font-style: bolder; font-weight: 900;">Our Client Saying!</h1>
+</div>
+
+<div class="div3">
+    <div class="div3-content">
+        <div class="div3-item" id="nvisi">
+               <div class="ncon">
+                <p style="color: rgb(69, 89, 91);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima libero quia ad magni sicing elit. <br> adipisci laudantium autem  Minima libero quia ad magni</p>
+                <span style="border-bottom: solid 1px rgb(255, 181, 36); width: 100%; height: 1px; display: flex; justify-content: center; align-items: center;"></span>
+               </div>
+              <div style="display: flex; gap: 20px;" class="con">
+                  <img style="margin-top: 10px; border-radius: 10px;" src="images/div3-1.jpg">
+                  <div class="con2">
+                      <h3 style="margin-top: 10px; color: rgb(69, 89, 91);">Client name</h3>
+                      <p style="color: gray;">Profission</p>
+                      <i style="color: rgb(129, 196, 8);" class='bx bxs-star'></i>
+                      <i style="color: rgb(129, 196, 8);" class='bx bxs-star'></i>
+                      <i style="color: rgb(129, 196, 8);" class='bx bxs-star'></i>
+                      <i style="color: rgb(129, 196, 8);" class='bx bxs-star'></i>
+                      <i style="color: rgb(129, 196, 8);" class='bx bxs-star'></i>
+                  </div>
+              </div>
+        </div>
+        <div class="div3-item" id="visi">
+            <div class="ncon">
+             <p style="color: rgb(69, 89, 91);">Lorem ipsum dolor sit amet consectetur adipisicing libero libero quia ad magni libero quia<br> adipisci laudantium autem  Minima </p>
+             <span style="border-bottom: solid 1px rgb(255, 181, 36); width: 100%; height: 1px; display: flex; justify-content: center; align-items: center;"></span>
+            </div>
+           <div style="display: flex; gap: 20px;" class="con">
+               <img style="margin-top: 10px; border-radius: 10px;" src="images/div3-1.jpg">
+               <div class="con2">
+                   <h3 style="margin-top: 10px; color: rgb(69, 89, 91);">Client name</h3>
+                   <p style="color: gray;">Profission</p>
+                   <i style="color: rgb(129, 196, 8);" class='bx bxs-star'></i>
+                   <i style="color: rgb(129, 196, 8);" class='bx bxs-star'></i>
+                   <i style="color: rgb(129, 196, 8);" class='bx bxs-star'></i>
+                   <i style="color: rgb(129, 196, 8);" class='bx bxs-star'></i>
+                   <i style="color: gray" class='bx bxs-star'></i>
+               </div>
+           </div>
+     </div>
+    </div>
+</div>
+
+<div class="footer">
+     <img style="width: 100%;" src="images/footer.png">
+</div>
+ 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
